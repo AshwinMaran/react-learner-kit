@@ -3,7 +3,7 @@ import React from 'react';
 export default class App {
   render() {
     return (
-      <p>Hello, worldfsspss.</p>
+      <p>Hello, world!</p>
     );
   }
 }

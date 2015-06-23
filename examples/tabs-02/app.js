@@ -1,9 +1,13 @@
 import React from 'react';
+import './app.scss';
 
 export default class App {
   render() {
     return (
-      <p>Hello, world.</p>
+      <div>
+        <Tabs />
+        <TabContent />
+      </div>
     );
   }
 }
