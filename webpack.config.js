@@ -44,8 +44,8 @@ module.exports = {
       include: path.join(__dirname, 'examples')
     },
     {
-      test: /\.scss?$/,
-      loader: 'style!css!sass?outputStyle=expanded'
+      test: /\.css?$/,
+      loader: 'style!css'
     }]
   }
 };

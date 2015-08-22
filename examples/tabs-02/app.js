@@ -1,7 +1,12 @@
-import React, { Component } from 'react';
-import './app.scss';
+import React, { Component, PropTypes } from 'react';
+// import './app.scss';
 
 class Tabs {
+
+  static propTypes = {
+    onTabClick: PropTypes.function.isRequired,
+    activeTab: PropTypes.number.isRequired
+  };
 
   computeClassName(tab) {
     return tab === this.props.activeTab ? 'active' : '';
@@ -27,6 +32,10 @@ class Tabs {
 
 class TabContent {
 
+  static propTypes = {
+    activeTab: PropTypes.number.isRequired
+  }
+
   render() {
     const imageSource = 'http://lorempixel.com/450/450/food';
     const style = {
@@ -39,7 +48,6 @@ class TabContent {
     );
   }
 }
-
 
 
 export default class App extends Component {
