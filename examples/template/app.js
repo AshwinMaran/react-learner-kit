@@ -1,3 +1,15 @@
 import React from 'react';
 
-React.render(<div></div>, document.getElementById('app'));
+class App {
+
+  render() {
+    return (
+      <div>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+React.render(<App />, document.getElementById('app'));

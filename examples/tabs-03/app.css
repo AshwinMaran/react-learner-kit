@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  width: 200px;
+  height: 60px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.tab:hover {
+  background-color: #3499E3
+}
+
+.content {
+  width: 800px;
+}
+
+.hide {
+  display: none;
+}
+
+.green-lorem {
+  color: green;
+}
+
+.red-lorem {
+  color: red;
+}
+
+.blue-lorem {
+  color: blue;
+}
