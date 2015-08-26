@@ -5,22 +5,33 @@ html, body {
 
 .menu-button {
   font-size: 20px;
-  padding: 15px 0;
+  padding: 15px 20px;
   font-family: sans-serif;
   background-color: #4C2;
-  width: 10%;
   text-align: center;
+  width: 64px;
 }
 
 .menu-list {
   font-size: 17px;
-  padding: 15px 0;
+  padding: 15px 20px;
   font-family: sans-serif;
   background-color: #2A2;
-  width: 10%;
+  text-align: center;
+}
+
+.sub-menu-list {
+  font-size: 15px;
+  padding: 10px 15px;
+  font-family: sans-serif;
+  background-color: #42A;
   text-align: center;
 }
 
 .menu-list:hover {
   background-color: #2A9;
+}
+
+.menu-list-wrapper {
+  display: flex;
 }
